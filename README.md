@@ -57,3 +57,15 @@ To provide a simple, efficient, and user-friendly digital platform that enables 
 - Developed within limited academic timeline  
 - Uses free and open-source tools  
 - Simple UI design for ease of use  
+## Quick Start – Local Development
+
+### Steps to Run
+
+1. Build Docker Image  
+docker build -t expense-app .
+
+2. Run Container  
+docker run -p 8080:80 expense-app
+
+3. Open in Browser  
+http://localhost:8080
