@@ -69,3 +69,13 @@ docker run -p 8080:80 expense-app
 
 3. Open in Browser  
 http://localhost:8080
+
+## Software Design
+
+The system follows a layered client-server architecture ensuring modularity and scalability. The UI is designed using simple and consistent layouts to improve usability.
+
+### Architecture Diagram
+![Architecture](docs/design/architecture.png)
+
+### UI Wireframes
+![Figma](docs/design/figma.png)
